@@ -1,0 +1,245 @@
+Time taken for NN of SHOT : 0.214675
+Time taken for RANSAC of SHOT ` 0.000627
+T diff & 0.0885478
+RRR of SHOT * 19.3548
+
+Time taken for NN of SHOT : 0.106491
+Time taken for RANSAC of SHOT ` 0.000152
+T diff & 0.18127
+RRR of SHOT * 33.9921
+
+Time taken for NN of SHOT : 0.103927
+Time taken for RANSAC of SHOT ` 0.000151
+T diff & 0.197055
+RRR of SHOT * 39.2
+
+Time taken for NN of SHOT : 0.234694
+Time taken for RANSAC of SHOT ` 0.000386
+T diff & 0.133068
+RRR of SHOT * 21.5596
+
+Time taken for NN of SHOT : 0.244464
+Time taken for RANSAC of SHOT ` 0.000124
+T diff & 0.121152
+RRR of SHOT * 43.7985
+
+Time taken for NN of SHOT : 0.215395
+Time taken for RANSAC of SHOT ` 0.001848
+T diff & 0.399463
+RRR of SHOT * 13.4503
+
+Time taken for NN of SHOT : 0.19753
+Time taken for RANSAC of SHOT ` 0.000187
+T diff & 0.204997
+RRR of SHOT * 35.9102
+
+Time taken for NN of SHOT : 0.251304
+Time taken for RANSAC of SHOT ` 0.000299
+T diff & 0.433603
+RRR of SHOT * 28.022
+
+Time taken for NN of SHOT : 0.125584
+Time taken for RANSAC of SHOT ` 0.000404
+T diff & 0.534928
+RRR of SHOT * 20.3947
+
+Time taken for NN of SHOT : 0.258751
+Time taken for RANSAC of SHOT ` 0.000377
+T diff & 0.188395
+RRR of SHOT * 32.618
+
+Time taken for NN of SHOT : 0.172549
+Time taken for RANSAC of SHOT ` 0.000222
+T diff & 0.152617
+RRR of SHOT * 30.8057
+
+Time taken for NN of SHOT : 0.207298
+Time taken for RANSAC of SHOT ` 0.000334
+T diff & 0.369721
+RRR of SHOT * 27.4678
+
+Time taken for NN of SHOT : 0.306609
+Time taken for RANSAC of SHOT ` 0.000438
+T diff & 0.201127
+RRR of SHOT * 28.4091
+
+Time taken for NN of SHOT : 0.158371
+Time taken for RANSAC of SHOT ` 0.000363
+T diff & 0.0631738
+RRR of SHOT * 30.5263
+
+Time taken for NN of SHOT : 0.304961
+Time taken for RANSAC of SHOT ` 0.000172
+T diff & 0.0927401
+RRR of SHOT * 38.7701
+
+Time taken for NN of SHOT : 0.237505
+Time taken for RANSAC of SHOT ` 0.000113
+T diff & 0.12658
+RRR of SHOT * 39.4636
+
+Time taken for NN of SHOT : 0.183118
+Time taken for RANSAC of SHOT ` 0.00117
+T diff & 0.0505836
+RRR of SHOT * 17.7515
+
+Time taken for NN of SHOT : 0.297051
+Time taken for RANSAC of SHOT ` 0.002197
+T diff & 0.251396
+RRR of SHOT * 19.5
+
+Time taken for NN of SHOT : 0.185441
+Time taken for RANSAC of SHOT ` 0.000658
+T diff & 0.506445
+RRR of SHOT * 18.232
+
+Time taken for NN of SHOT : 0.173697
+Time taken for RANSAC of SHOT ` 0.000512
+T diff & 0.290867
+RRR of SHOT * 23.1183
+
+Time taken for NN of SHOT : 0.212785
+Time taken for RANSAC of SHOT ` 0.000667
+T diff & 0.285423
+RRR of SHOT * 18.8889
+
+Time taken for NN of SHOT : 0.17172
+Time taken for RANSAC of SHOT ` 0.000442
+T diff & 0.274293
+RRR of SHOT * 21.8579
+
+Time taken for NN of SHOT : 0.121127
+Time taken for RANSAC of SHOT ` 0.001623
+T diff & 0.166834
+RRR of SHOT * 12.7119
+
+Time taken for NN of SHOT : 0.396436
+Time taken for RANSAC of SHOT ` 0.000401
+T diff & 0.260224
+RRR of SHOT * 22.0551
+
+Time taken for NN of SHOT : 0.140212
+Time taken for RANSAC of SHOT ` 0.000124
+T diff & 0.126961
+RRR of SHOT * 45.6044
+
+Time taken for NN of SHOT : 0.119324
+Time taken for RANSAC of SHOT ` 0.000133
+T diff & 0.430239
+RRR of SHOT * 30
+
+Time taken for NN of SHOT : 0.269984
+Time taken for RANSAC of SHOT ` 0.000356
+T diff & 0.0837525
+RRR of SHOT * 30.292
+
+Time taken for NN of SHOT : 0.169076
+Time taken for RANSAC of SHOT ` 0.00037
+T diff & 0.0870253
+RRR of SHOT * 24
+
+Time taken for NN of SHOT : 0.21641
+Time taken for RANSAC of SHOT ` 0.000341
+T diff & 0.157331
+RRR of SHOT * 25.431
+
+Time taken for NN of SHOT : 0.322554
+Time taken for RANSAC of SHOT ` 0.000969
+T diff & 0.158073
+RRR of SHOT * 16.6667
+
+Time taken for NN of SHOT : 0.172304
+Time taken for RANSAC of SHOT ` 0.000417
+T diff & 0.188651
+RRR of SHOT * 23.5294
+
+Time taken for NN of SHOT : 0.225736
+Time taken for RANSAC of SHOT ` 0.000308
+T diff & 0.252842
+RRR of SHOT * 23.5043
+
+Time taken for NN of SHOT : 0.251931
+Time taken for RANSAC of SHOT ` 0.000138
+T diff & 0.189269
+RRR of SHOT * 37.3077
+
+Time taken for NN of SHOT : 0.103785
+Time taken for RANSAC of SHOT ` 0.000104
+T diff & 0.295414
+RRR of SHOT * 38.843
+
+Time taken for NN of SHOT : 0.250463
+Time taken for RANSAC of SHOT ` 0.001718
+T diff & 0.329038
+RRR of SHOT * 11.6935
+
+Time taken for NN of SHOT : 0.268665
+Time taken for RANSAC of SHOT ` 0.000242
+T diff & 0.158245
+RRR of SHOT * 26.6129
+
+Time taken for NN of SHOT : 0.38671
+Time taken for RANSAC of SHOT ` 0.000484
+T diff & 0.143907
+RRR of SHOT * 23.0978
+
+Time taken for NN of SHOT : 0.138017
+Time taken for RANSAC of SHOT ` 0.000151
+T diff & 0.322791
+RRR of SHOT * 48.9655
+
+Time taken for NN of SHOT : 0.161403
+Time taken for RANSAC of SHOT ` 0.00017
+T diff & 0.402312
+RRR of SHOT * 33.4928
+
+Time taken for NN of SHOT : 0.10763
+Time taken for RANSAC of SHOT ` 0.000115
+T diff & 0.301537
+RRR of SHOT * 38.3562
+
+Time taken for NN of SHOT : 0.26342
+Time taken for RANSAC of SHOT ` 0.000246
+T diff & 0.0549593
+RRR of SHOT * 34.0102
+
+Time taken for NN of SHOT : 0.181215
+Time taken for RANSAC of SHOT ` 0.000237
+T diff & 0.294996
+RRR of SHOT * 28.7879
+
+Time taken for NN of SHOT : 0.128083
+Time taken for RANSAC of SHOT ` 0.000435
+T diff & 0.407116
+RRR of SHOT * 17.2131
+
+Time taken for NN of SHOT : 0.212573
+Time taken for RANSAC of SHOT ` 0.000403
+T diff & 0.674517
+RRR of SHOT * 21.5768
+
+Time taken for NN of SHOT : 0.357041
+Time taken for RANSAC of SHOT ` 0.001028
+T diff & 0.297865
+RRR of SHOT * 17.134
+
+Time taken for NN of SHOT : 0.118362
+Time taken for RANSAC of SHOT ` 0.000129
+T diff & 0.0543023
+RRR of SHOT * 35.8108
+
+Time taken for NN of SHOT : 0.291141
+Time taken for RANSAC of SHOT ` 0.000482
+T diff & 0.1713
+RRR of SHOT * 25.6831
+
+Time taken for NN of SHOT : 0.215021
+Time taken for RANSAC of SHOT ` 0.000181
+T diff & 0.0761929
+RRR of SHOT * 30.0885
+
+Time taken for NN of SHOT : 0.133452
+Time taken for RANSAC of SHOT ` 0.000413
+T diff & 0.178029
+RRR of SHOT * 23.0089
+

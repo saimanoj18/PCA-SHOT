@@ -1,0 +1,343 @@
+Time taken for creating SHOT descriptors + 11.1098
+Time taken for Binary SHOT creation from SHOT =  0.018829
+Time taken for B-SHOT NN Matching : 0.019649
+RANSAC Time for B-SHOT NN's # 0.000319
+T diff & 0.140407
+RRR of B-SHOT * 16.129
+ 
+Time taken for creating SHOT descriptors + 11.0777
+Time taken for Binary SHOT creation from SHOT =  0.018883
+Time taken for B-SHOT NN Matching : 0.021063
+RANSAC Time for B-SHOT NN's # 0.00016
+T diff & 0.232137
+RRR of B-SHOT * 22.9249
+ 
+Time taken for creating SHOT descriptors + 10.6932
+Time taken for Binary SHOT creation from SHOT =  0.018609
+Time taken for B-SHOT NN Matching : 0.010081
+RANSAC Time for B-SHOT NN's # 0.000469
+T diff & 0.1864
+RRR of B-SHOT * 14.4
+ 
+Time taken for creating SHOT descriptors + 11.3092
+Time taken for Binary SHOT creation from SHOT =  0.018756
+Time taken for B-SHOT NN Matching : 0.022151
+RANSAC Time for B-SHOT NN's # 0.0002
+T diff & 0.348247
+RRR of B-SHOT * 21.1009
+ 
+Time taken for creating SHOT descriptors + 11.3204
+Time taken for Binary SHOT creation from SHOT =  0.018642
+Time taken for B-SHOT NN Matching : 0.022915
+RANSAC Time for B-SHOT NN's # 0.000125
+T diff & 0.153272
+RRR of B-SHOT * 39.1473
+ 
+Time taken for creating SHOT descriptors + 11.3504
+Time taken for Binary SHOT creation from SHOT =  0.018357
+Time taken for B-SHOT NN Matching : 0.019472
+RANSAC Time for B-SHOT NN's # 0.000383
+T diff & 0.685717
+RRR of B-SHOT * 14.0351
+ 
+Time taken for creating SHOT descriptors + 11.8852
+Time taken for Binary SHOT creation from SHOT =  0.018376
+Time taken for B-SHOT NN Matching : 0.033582
+RANSAC Time for B-SHOT NN's # 0.000173
+T diff & 0.200818
+RRR of B-SHOT * 21.4464
+ 
+Time taken for creating SHOT descriptors + 11.3406
+Time taken for Binary SHOT creation from SHOT =  0.018304
+Time taken for B-SHOT NN Matching : 0.019875
+RANSAC Time for B-SHOT NN's # 0.000366
+T diff & 0.515652
+RRR of B-SHOT * 17.033
+ 
+Time taken for creating SHOT descriptors + 11.2452
+Time taken for Binary SHOT creation from SHOT =  0.01886
+Time taken for B-SHOT NN Matching : 0.01192
+RANSAC Time for B-SHOT NN's # 0.000726
+T diff & 0.201782
+RRR of B-SHOT * 9.86842
+ 
+Time taken for creating SHOT descriptors + 11.6099
+Time taken for Binary SHOT creation from SHOT =  0.017805
+Time taken for B-SHOT NN Matching : 0.033465
+RANSAC Time for B-SHOT NN's # 0.000265
+T diff & 0.28049
+RRR of B-SHOT * 28.3262
+ 
+Time taken for creating SHOT descriptors + 11.1797
+Time taken for Binary SHOT creation from SHOT =  0.018463
+Time taken for B-SHOT NN Matching : 0.017353
+RANSAC Time for B-SHOT NN's # 0.000189
+T diff & 0.397084
+RRR of B-SHOT * 18.0095
+ 
+Time taken for creating SHOT descriptors + 11.2088
+Time taken for Binary SHOT creation from SHOT =  0.018662
+Time taken for B-SHOT NN Matching : 0.019062
+RANSAC Time for B-SHOT NN's # 0.00033
+T diff & 0.784172
+RRR of B-SHOT * 11.1588
+ 
+Time taken for creating SHOT descriptors + 11.6561
+Time taken for Binary SHOT creation from SHOT =  0.018756
+Time taken for B-SHOT NN Matching : 0.031446
+RANSAC Time for B-SHOT NN's # 0.000185
+T diff & 0.0547077
+RRR of B-SHOT * 20.4545
+ 
+Time taken for creating SHOT descriptors + 11.2596
+Time taken for Binary SHOT creation from SHOT =  0.018654
+Time taken for B-SHOT NN Matching : 0.015778
+RANSAC Time for B-SHOT NN's # 0.000189
+T diff & 0.142725
+RRR of B-SHOT * 20.5263
+ 
+Time taken for creating SHOT descriptors + 11.447
+Time taken for Binary SHOT creation from SHOT =  0.018694
+Time taken for B-SHOT NN Matching : 0.034151
+RANSAC Time for B-SHOT NN's # 0.000163
+T diff & 0.0344491
+RRR of B-SHOT * 27.8075
+ 
+Time taken for creating SHOT descriptors + 11.0374
+Time taken for Binary SHOT creation from SHOT =  0.018623
+Time taken for B-SHOT NN Matching : 0.020523
+RANSAC Time for B-SHOT NN's # 0.000127
+T diff & 0.134783
+RRR of B-SHOT * 38.3142
+ 
+Time taken for creating SHOT descriptors + 10.9092
+Time taken for Binary SHOT creation from SHOT =  0.018353
+Time taken for B-SHOT NN Matching : 0.017349
+RANSAC Time for B-SHOT NN's # 0.000242
+T diff & 0.359995
+RRR of B-SHOT * 16.568
+ 
+Time taken for creating SHOT descriptors + 11.1825
+Time taken for Binary SHOT creation from SHOT =  0.018508
+Time taken for B-SHOT NN Matching : 0.031122
+RANSAC Time for B-SHOT NN's # 0.000357
+T diff & 0.608222
+RRR of B-SHOT * 20
+ 
+Time taken for creating SHOT descriptors + 10.5913
+Time taken for Binary SHOT creation from SHOT =  0.018423
+Time taken for B-SHOT NN Matching : 0.015882
+RANSAC Time for B-SHOT NN's # 0.000324
+T diff & 0.424361
+RRR of B-SHOT * 14.3646
+ 
+Time taken for creating SHOT descriptors + 10.6653
+Time taken for Binary SHOT creation from SHOT =  0.018822
+Time taken for B-SHOT NN Matching : 0.015882
+RANSAC Time for B-SHOT NN's # 0.000198
+T diff & 0.223158
+RRR of B-SHOT * 14.5161
+ 
+Time taken for creating SHOT descriptors + 10.8721
+Time taken for Binary SHOT creation from SHOT =  0.018406
+Time taken for B-SHOT NN Matching : 0.018155
+RANSAC Time for B-SHOT NN's # 0.000411
+T diff & 0.664676
+RRR of B-SHOT * 14.4444
+ 
+Time taken for creating SHOT descriptors + 11.0103
+Time taken for Binary SHOT creation from SHOT =  0.019054
+Time taken for B-SHOT NN Matching : 0.016363
+RANSAC Time for B-SHOT NN's # 0.00244
+T diff & 3.29256
+RRR of B-SHOT * 1.0929
+ 
+Time taken for creating SHOT descriptors + 10.5239
+Time taken for Binary SHOT creation from SHOT =  0.018587
+Time taken for B-SHOT NN Matching : 0.01025
+RANSAC Time for B-SHOT NN's # 0.000716
+T diff & 0.29934
+RRR of B-SHOT * 11.8644
+ 
+Time taken for creating SHOT descriptors + 11.379
+Time taken for Binary SHOT creation from SHOT =  0.018831
+Time taken for B-SHOT NN Matching : 0.036888
+RANSAC Time for B-SHOT NN's # 0.000198
+T diff & 0.0874382
+RRR of B-SHOT * 18.797
+ 
+Time taken for creating SHOT descriptors + 10.7803
+Time taken for Binary SHOT creation from SHOT =  0.018429
+Time taken for B-SHOT NN Matching : 0.014328
+RANSAC Time for B-SHOT NN's # 0.000137
+T diff & 0.156557
+RRR of B-SHOT * 35.1648
+ 
+Time taken for creating SHOT descriptors + 10.7501
+Time taken for Binary SHOT creation from SHOT =  0.018724
+Time taken for B-SHOT NN Matching : 0.012439
+RANSAC Time for B-SHOT NN's # 0.000221
+T diff & 0.383955
+RRR of B-SHOT * 13.75
+ 
+Time taken for creating SHOT descriptors + 11.1991
+Time taken for Binary SHOT creation from SHOT =  0.01826
+Time taken for B-SHOT NN Matching : 0.029033
+RANSAC Time for B-SHOT NN's # 0.000219
+T diff & 0.131212
+RRR of B-SHOT * 19.708
+ 
+Time taken for creating SHOT descriptors + 10.8652
+Time taken for Binary SHOT creation from SHOT =  0.018056
+Time taken for B-SHOT NN Matching : 0.016433
+RANSAC Time for B-SHOT NN's # 0.000207
+T diff & 0.371684
+RRR of B-SHOT * 18.5
+ 
+Time taken for creating SHOT descriptors + 10.9731
+Time taken for Binary SHOT creation from SHOT =  0.018656
+Time taken for B-SHOT NN Matching : 0.019632
+RANSAC Time for B-SHOT NN's # 0.000224
+T diff & 0.18207
+RRR of B-SHOT * 15.5172
+ 
+Time taken for creating SHOT descriptors + 11.5
+Time taken for Binary SHOT creation from SHOT =  0.019234
+Time taken for B-SHOT NN Matching : 0.032139
+RANSAC Time for B-SHOT NN's # 0.000333
+T diff & 0.166216
+RRR of B-SHOT * 12.0567
+ 
+Time taken for creating SHOT descriptors + 11.1146
+Time taken for Binary SHOT creation from SHOT =  0.018648
+Time taken for B-SHOT NN Matching : 0.016274
+RANSAC Time for B-SHOT NN's # 0.000251
+T diff & 0.442
+RRR of B-SHOT * 11.7647
+ 
+Time taken for creating SHOT descriptors + 11.3341
+Time taken for Binary SHOT creation from SHOT =  0.018874
+Time taken for B-SHOT NN Matching : 0.02155
+RANSAC Time for B-SHOT NN's # 0.00015
+T diff & 0.0936559
+RRR of B-SHOT * 24.359
+ 
+Time taken for creating SHOT descriptors + 11.3691
+Time taken for Binary SHOT creation from SHOT =  0.019286
+Time taken for B-SHOT NN Matching : 0.022289
+RANSAC Time for B-SHOT NN's # 0.000125
+T diff & 0.374757
+RRR of B-SHOT * 32.3077
+ 
+Time taken for creating SHOT descriptors + 11.1985
+Time taken for Binary SHOT creation from SHOT =  0.019003
+Time taken for B-SHOT NN Matching : 0.01024
+RANSAC Time for B-SHOT NN's # 0.000247
+T diff & 0.308842
+RRR of B-SHOT * 20.6612
+ 
+Time taken for creating SHOT descriptors + 10.9156
+Time taken for Binary SHOT creation from SHOT =  0.018804
+Time taken for B-SHOT NN Matching : 0.022949
+RANSAC Time for B-SHOT NN's # 0.000448
+T diff & 0.0996211
+RRR of B-SHOT * 12.9032
+ 
+Time taken for creating SHOT descriptors + 10.8338
+Time taken for Binary SHOT creation from SHOT =  0.019123
+Time taken for B-SHOT NN Matching : 0.022074
+RANSAC Time for B-SHOT NN's # 0.000156
+T diff & 0.214195
+RRR of B-SHOT * 27.4194
+ 
+Time taken for creating SHOT descriptors + 11.3458
+Time taken for Binary SHOT creation from SHOT =  0.018836
+Time taken for B-SHOT NN Matching : 0.036145
+RANSAC Time for B-SHOT NN's # 0.00022
+T diff & 0.372472
+RRR of B-SHOT * 19.0217
+ 
+Time taken for creating SHOT descriptors + 10.5927
+Time taken for Binary SHOT creation from SHOT =  0.018415
+Time taken for B-SHOT NN Matching : 0.013609
+RANSAC Time for B-SHOT NN's # 0.00013
+T diff & 0.150112
+RRR of B-SHOT * 44.1379
+ 
+Time taken for creating SHOT descriptors + 10.6378
+Time taken for Binary SHOT creation from SHOT =  0.018544
+Time taken for B-SHOT NN Matching : 0.015934
+RANSAC Time for B-SHOT NN's # 0.00018
+T diff & 0.243809
+RRR of B-SHOT * 18.6603
+ 
+Time taken for creating SHOT descriptors + 10.8062
+Time taken for Binary SHOT creation from SHOT =  0.018644
+Time taken for B-SHOT NN Matching : 0.01098
+RANSAC Time for B-SHOT NN's # 0.000335
+T diff & 0.639543
+RRR of B-SHOT * 13.6986
+ 
+Time taken for creating SHOT descriptors + 10.7996
+Time taken for Binary SHOT creation from SHOT =  0.018483
+Time taken for B-SHOT NN Matching : 0.021624
+RANSAC Time for B-SHOT NN's # 0.000228
+T diff & 0.089798
+RRR of B-SHOT * 24.8731
+ 
+Time taken for creating SHOT descriptors + 10.7921
+Time taken for Binary SHOT creation from SHOT =  0.018858
+Time taken for B-SHOT NN Matching : 0.01746
+RANSAC Time for B-SHOT NN's # 0.000166
+T diff & 0.254267
+RRR of B-SHOT * 24.2424
+ 
+Time taken for creating SHOT descriptors + 10.6085
+Time taken for Binary SHOT creation from SHOT =  0.018961
+Time taken for B-SHOT NN Matching : 0.010833
+RANSAC Time for B-SHOT NN's # 0.002604
+T diff & 0.309163
+RRR of B-SHOT * 5.7377
+ 
+Time taken for creating SHOT descriptors + 11.0968
+Time taken for Binary SHOT creation from SHOT =  0.019397
+Time taken for B-SHOT NN Matching : 0.019233
+RANSAC Time for B-SHOT NN's # 0.000199
+T diff & 0.485646
+RRR of B-SHOT * 21.5768
+ 
+Time taken for creating SHOT descriptors + 11.4679
+Time taken for Binary SHOT creation from SHOT =  0.019289
+Time taken for B-SHOT NN Matching : 0.033885
+RANSAC Time for B-SHOT NN's # 0.000932
+T diff & 0.212497
+RRR of B-SHOT * 8.09969
+ 
+Time taken for creating SHOT descriptors + 10.6179
+Time taken for Binary SHOT creation from SHOT =  0.018423
+Time taken for B-SHOT NN Matching : 0.011929
+RANSAC Time for B-SHOT NN's # 0.000249
+T diff & 0.132906
+RRR of B-SHOT * 14.8649
+ 
+Time taken for creating SHOT descriptors + 11.4689
+Time taken for Binary SHOT creation from SHOT =  0.019173
+Time taken for B-SHOT NN Matching : 0.023188
+RANSAC Time for B-SHOT NN's # 0.000195
+T diff & 0.255037
+RRR of B-SHOT * 27.3224
+ 
+Time taken for creating SHOT descriptors + 11.3798
+Time taken for Binary SHOT creation from SHOT =  0.019101
+Time taken for B-SHOT NN Matching : 0.020593
+RANSAC Time for B-SHOT NN's # 0.000156
+T diff & 0.0889738
+RRR of B-SHOT * 23.8938
+ 
+Time taken for creating SHOT descriptors + 11.2084
+Time taken for Binary SHOT creation from SHOT =  0.019032
+Time taken for B-SHOT NN Matching : 0.011924
+RANSAC Time for B-SHOT NN's # 0.002487
+T diff & 2.41121
+RRR of B-SHOT * 3.53982
+ 

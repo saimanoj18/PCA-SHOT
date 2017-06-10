@@ -1,0 +1,245 @@
+Time taken for PCA-SHOT creation from SHOT =  0.013153
+Time taken for NN-Matching of PCA-SHOT =  0.043087
+RANSAC Time for PCA-SHOT NN's # 0.001788
+RRR of PCA-SHOT * 15.2074
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.013138
+Time taken for NN-Matching of PCA-SHOT =  0.030885
+RANSAC Time for PCA-SHOT NN's # 0.000849
+RRR of PCA-SHOT * 34.7826
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012916
+Time taken for NN-Matching of PCA-SHOT =  0.02272
+RANSAC Time for PCA-SHOT NN's # 0.000832
+RRR of PCA-SHOT * 36.8
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.014033
+Time taken for NN-Matching of PCA-SHOT =  0.046998
+RANSAC Time for PCA-SHOT NN's # 0.001292
+RRR of PCA-SHOT * 21.1009
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.014119
+Time taken for NN-Matching of PCA-SHOT =  0.044517
+RANSAC Time for PCA-SHOT NN's # 0.0008
+RRR of PCA-SHOT * 36.8217
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.014062
+Time taken for NN-Matching of PCA-SHOT =  0.041939
+RANSAC Time for PCA-SHOT NN's # 0.004064
+RRR of PCA-SHOT * 11.1111
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012958
+Time taken for NN-Matching of PCA-SHOT =  0.044649
+RANSAC Time for PCA-SHOT NN's # 0.000941
+RRR of PCA-SHOT * 33.9152
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012409
+Time taken for NN-Matching of PCA-SHOT =  0.043146
+RANSAC Time for PCA-SHOT NN's # 0.001239
+RRR of PCA-SHOT * 23.6264
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012016
+Time taken for NN-Matching of PCA-SHOT =  0.024451
+RANSAC Time for PCA-SHOT NN's # 0.001141
+RRR of PCA-SHOT * 19.7368
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.013062
+Time taken for NN-Matching of PCA-SHOT =  0.056709
+RANSAC Time for PCA-SHOT NN's # 0.001061
+RRR of PCA-SHOT * 33.0472
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012649
+Time taken for NN-Matching of PCA-SHOT =  0.036399
+RANSAC Time for PCA-SHOT NN's # 0.000943
+RRR of PCA-SHOT * 27.9621
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012113
+Time taken for NN-Matching of PCA-SHOT =  0.040973
+RANSAC Time for PCA-SHOT NN's # 0.001217
+RRR of PCA-SHOT * 24.4635
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012677
+Time taken for NN-Matching of PCA-SHOT =  0.058863
+RANSAC Time for PCA-SHOT NN's # 0.001283
+RRR of PCA-SHOT * 26.8939
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012132
+Time taken for NN-Matching of PCA-SHOT =  0.033008
+RANSAC Time for PCA-SHOT NN's # 0.001024
+RRR of PCA-SHOT * 27.3684
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012988
+Time taken for NN-Matching of PCA-SHOT =  0.061334
+RANSAC Time for PCA-SHOT NN's # 0.000858
+RRR of PCA-SHOT * 35.2941
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012559
+Time taken for NN-Matching of PCA-SHOT =  0.043469
+RANSAC Time for PCA-SHOT NN's # 0.000803
+RRR of PCA-SHOT * 30.6513
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012355
+Time taken for NN-Matching of PCA-SHOT =  0.037191
+RANSAC Time for PCA-SHOT NN's # 0.002001
+RRR of PCA-SHOT * 15.3846
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012671
+Time taken for NN-Matching of PCA-SHOT =  0.057362
+RANSAC Time for PCA-SHOT NN's # 0.002715
+RRR of PCA-SHOT * 20.5
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012218
+Time taken for NN-Matching of PCA-SHOT =  0.034675
+RANSAC Time for PCA-SHOT NN's # 0.001649
+RRR of PCA-SHOT * 16.0221
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012103
+Time taken for NN-Matching of PCA-SHOT =  0.033701
+RANSAC Time for PCA-SHOT NN's # 0.001302
+RRR of PCA-SHOT * 18.8172
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012872
+Time taken for NN-Matching of PCA-SHOT =  0.038686
+RANSAC Time for PCA-SHOT NN's # 0.002379
+RRR of PCA-SHOT * 14.4444
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012916
+Time taken for NN-Matching of PCA-SHOT =  0.03344
+RANSAC Time for PCA-SHOT NN's # 0.001207
+RRR of PCA-SHOT * 19.6721
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.01275
+Time taken for NN-Matching of PCA-SHOT =  0.024012
+RANSAC Time for PCA-SHOT NN's # 0.001749
+RRR of PCA-SHOT * 13.5593
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.013607
+Time taken for NN-Matching of PCA-SHOT =  0.074279
+RANSAC Time for PCA-SHOT NN's # 0.001199
+RRR of PCA-SHOT * 21.3033
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012308
+Time taken for NN-Matching of PCA-SHOT =  0.029379
+RANSAC Time for PCA-SHOT NN's # 0.000781
+RRR of PCA-SHOT * 42.3077
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012373
+Time taken for NN-Matching of PCA-SHOT =  0.025218
+RANSAC Time for PCA-SHOT NN's # 0.000855
+RRR of PCA-SHOT * 26.875
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.011739
+Time taken for NN-Matching of PCA-SHOT =  0.054858
+RANSAC Time for PCA-SHOT NN's # 0.001057
+RRR of PCA-SHOT * 28.8321
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.011798
+Time taken for NN-Matching of PCA-SHOT =  0.034332
+RANSAC Time for PCA-SHOT NN's # 0.00116
+RRR of PCA-SHOT * 23.5
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012643
+Time taken for NN-Matching of PCA-SHOT =  0.042381
+RANSAC Time for PCA-SHOT NN's # 0.001202
+RRR of PCA-SHOT * 20.2586
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012801
+Time taken for NN-Matching of PCA-SHOT =  0.060663
+RANSAC Time for PCA-SHOT NN's # 0.001799
+RRR of PCA-SHOT * 18.0851
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012793
+Time taken for NN-Matching of PCA-SHOT =  0.035605
+RANSAC Time for PCA-SHOT NN's # 0.001126
+RRR of PCA-SHOT * 21.9251
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.01373
+Time taken for NN-Matching of PCA-SHOT =  0.044905
+RANSAC Time for PCA-SHOT NN's # 0.00111
+RRR of PCA-SHOT * 20.0855
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.013807
+Time taken for NN-Matching of PCA-SHOT =  0.045635
+RANSAC Time for PCA-SHOT NN's # 0.000836
+RRR of PCA-SHOT * 31.1538
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.013456
+Time taken for NN-Matching of PCA-SHOT =  0.023984
+RANSAC Time for PCA-SHOT NN's # 0.000763
+RRR of PCA-SHOT * 34.7107
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.013765
+Time taken for NN-Matching of PCA-SHOT =  0.047915
+RANSAC Time for PCA-SHOT NN's # 0.004036
+RRR of PCA-SHOT * 9.67742
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.013583
+Time taken for NN-Matching of PCA-SHOT =  0.048019
+RANSAC Time for PCA-SHOT NN's # 0.000931
+RRR of PCA-SHOT * 25.4032
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012634
+Time taken for NN-Matching of PCA-SHOT =  0.072601
+RANSAC Time for PCA-SHOT NN's # 0.001303
+RRR of PCA-SHOT * 20.9239
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.011852
+Time taken for NN-Matching of PCA-SHOT =  0.028297
+RANSAC Time for PCA-SHOT NN's # 0.000741
+RRR of PCA-SHOT * 46.2069
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012267
+Time taken for NN-Matching of PCA-SHOT =  0.034077
+RANSAC Time for PCA-SHOT NN's # 0.000835
+RRR of PCA-SHOT * 31.5789
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012392
+Time taken for NN-Matching of PCA-SHOT =  0.023139
+RANSAC Time for PCA-SHOT NN's # 0.000768
+RRR of PCA-SHOT * 34.2466
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.013352
+Time taken for NN-Matching of PCA-SHOT =  0.04628
+RANSAC Time for PCA-SHOT NN's # 0.001033
+RRR of PCA-SHOT * 29.4416
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.01318
+Time taken for NN-Matching of PCA-SHOT =  0.035187
+RANSAC Time for PCA-SHOT NN's # 0.000939
+RRR of PCA-SHOT * 25.2525
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012885
+Time taken for NN-Matching of PCA-SHOT =  0.024617
+RANSAC Time for PCA-SHOT NN's # 0.001455
+RRR of PCA-SHOT * 13.9344
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012597
+Time taken for NN-Matching of PCA-SHOT =  0.040945
+RANSAC Time for PCA-SHOT NN's # 0.001267
+RRR of PCA-SHOT * 18.6722
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.013178
+Time taken for NN-Matching of PCA-SHOT =  0.066876
+RANSAC Time for PCA-SHOT NN's # 0.002306
+RRR of PCA-SHOT * 13.7072
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.012286
+Time taken for NN-Matching of PCA-SHOT =  0.024144
+RANSAC Time for PCA-SHOT NN's # 0.000777
+RRR of PCA-SHOT * 33.7838
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.014421
+Time taken for NN-Matching of PCA-SHOT =  0.050699
+RANSAC Time for PCA-SHOT NN's # 0.001868
+RRR of PCA-SHOT * 18.5792
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.014268
+Time taken for NN-Matching of PCA-SHOT =  0.042982
+RANSAC Time for PCA-SHOT NN's # 0.000877
+RRR of PCA-SHOT * 28.7611
+ 
+Time taken for PCA-SHOT creation from SHOT =  0.014126
+Time taken for NN-Matching of PCA-SHOT =  0.028062
+RANSAC Time for PCA-SHOT NN's # 0.00137
+RRR of PCA-SHOT * 21.2389
+ 

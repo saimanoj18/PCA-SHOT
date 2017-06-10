@@ -1,0 +1,422 @@
+#include<pca_rops/pcarops_bits.h>
+
+/************************************************************************
+ *
+ * Looping over the dataset point clouds starts
+ *
+ *
+ * **********************************************************************/
+
+#define MAXBUFSIZE  ((int) 1e6)
+
+MatrixXf readMatrix(const char *filename)
+{
+    int cols = 0, rows = 0;
+    double buff[MAXBUFSIZE];
+
+    // Read numbers from file into buffer.
+    ifstream infile;
+    infile.open(filename);
+    while (! infile.eof())
+    {
+        string line;
+        getline(infile, line);
+
+        int temp_cols = 0;
+        stringstream stream(line);
+        while(! stream.eof())
+            stream >> buff[cols*rows+temp_cols++];
+
+        if (temp_cols == 0)
+            continue;
+
+        if (cols == 0)
+            cols = temp_cols;
+
+        rows++;
+    }
+
+    infile.close();
+
+    rows--;
+
+    // Populate matrix with numbers.
+    MatrixXf result(rows,cols);
+    for (int i = 0; i < rows; i++)
+        for (int j = 0; j < cols; j++)
+            result(i,j) = buff[ cols*i+j ];
+
+    return result;
+}
+
+
+
+bool replace(std::string& str, const std::string& from, const std::string& to) {
+    size_t start_pos = str.find(from);
+    if(start_pos == std::string::npos)
+        return false;
+    str.replace(start_pos, from.length(), to);
+    return true;
+}
+
+/************************************************************************
+ *
+ * Looping over the dataset point clouds ends
+ *
+ *
+ * **********************************************************************/
+
+
+
+int main(int argc, char **argv)
+{
+
+
+   
+    /*****************************************/
+    if(argc < 5)
+    {
+        std::cerr << "Usage:" << std::endl;
+        std::cerr << argv[0] << " [-a] model.ply scene.ply Tx Num_dim " << std::endl;
+        std::cerr << "\t-a\tASCII output" << std::endl;
+        return (1);
+    }
+
+    Eigen::Matrix4f T;
+    T = readMatrix(argv[3]);
+    //cout << T << endl;
+
+    int num_dim = atoi(argv[4]);
+
+    cout << "Dimensions : " << num_dim << endl;
+
+    /*******************************************/
+
+    cbshot cb;
+
+    char strr[15];
+    sprintf(strr, "%d",num_dim);
+
+    //std
+    std::string file_name = "/home/sai/pcl_testing/pca_shot/PCA_matrices/results/adaptive_pcarops_3_10_.txt";
+    if(file_name.substr(file_name.find_last_of(".") + 1) == "txt")
+    {
+      replace(file_name, ".txt", strr);
+    }
+
+    //oss << atoi(argv[4]);
+
+    ofstream pcarops;
+    pcarops.open(file_name.c_str(), ios::out | ios::app);
+
+
+    /*******************************************/
+
+
+    pcl::PolygonMesh mesh;
+    pcl::io::loadPolygonFilePLY(argv[1], mesh);
+    std::cerr << "Read cloud: " << std::endl;
+    pcl::io::saveVTKFile ("temp2121.vtk", mesh);
+
+    // then use pcl_vtk2pcd
+
+    vtkSmartPointer<vtkPolyDataReader> reader = vtkSmartPointer<vtkPolyDataReader>::New ();
+    reader->SetFileName ("temp2121.vtk");
+    reader->Update ();
+    vtkSmartPointer<vtkPolyData> polydata = reader->GetOutput ();
+
+    pcl::PointCloud<pcl::PointXYZ> cloud;
+    vtkPolyDataToPointCloud (polydata, cloud);
+
+    cb.cloud1 = cloud;
+    cb.mesh1 = mesh;
+
+
+    pcl::PolygonMesh mesh1;
+    pcl::io::loadPolygonFilePLY(argv[2], mesh1);
+    std::cerr << "Read cloud: " << std::endl;
+    pcl::io::saveVTKFile ("temp3131.vtk", mesh1);
+
+    // then use pcl_vtk2pcd
+
+    vtkSmartPointer<vtkPolyDataReader> reader1 = vtkSmartPointer<vtkPolyDataReader>::New ();
+    reader1->SetFileName ("temp3131.vtk");
+    reader1->Update ();
+    vtkSmartPointer<vtkPolyData> polydata1 = reader1->GetOutput ();
+
+    pcl::PointCloud<pcl::PointXYZ> cloud1;
+    vtkPolyDataToPointCloud (polydata1, cloud1);
+
+    cb.cloud2 = cloud1;
+    cb.mesh2 = mesh1;
+
+    cb.calculate_normals (0.02);
+
+
+    cb.calculate_voxel_grid_keypoints (0.03);
+
+    cb.get_keypoint_indices();
+
+    std::cout << "\nNo. of keypoints : "<< cb.cloud1_keypoints.size() << endl;
+
+    clock_t start_, end_;
+    double cpu_time_used_;
+    start_ = clock();
+
+    cb.calculate_rops (0.10);//0.10
+
+    end_ = clock();
+    cpu_time_used_ = ((double) (end_ - start_)) / CLOCKS_PER_SEC;
+    //std::cout << "Time taken for creating SHOT descriptors : " << (double)cpu_time_used_ << std::endl;
+
+    
+
+
+    /************Reciprocal Correspondence Estimation :START **************/
+
+    pcl::Correspondences corresp;
+
+    Eigen::MatrixXf dist;
+    dist.resize(cb.histograms1.size(), cb.histograms2.size());
+    dist.setZero();
+
+Eigen::MatrixXf PCA_projection_matrix;
+    PCA_projection_matrix = readMatrix("/home/sai/pcl_testing/pca_shot/PCA_matrices/PCA_for_ROPS_cloud77.txt");
+
+   
+for (int i = 0; i < cb.histograms1.size(); i++)
+    {
+        Eigen::VectorXf Y,X; Y.resize(135); X.resize(135);
+        for(int id1 = 0; id1 < 135; id1++)
+            X(id1) = cb.histograms1[i].histogram[id1];
+
+        Y = PCA_projection_matrix * X;
+
+        for (int j = 0; j < 135; j++)
+            cb.histograms1[i].histogram[j] = Y(j);
+
+    }
+
+    for (int i = 0; i < cb.histograms2.size(); i++)
+    {
+        Eigen::VectorXf Y,X; Y.resize(135); X.resize(135);
+        for(int id1 = 0; id1 < 135; id1++)
+            X(id1) = cb.histograms2[i].histogram[id1];
+
+        Y = PCA_projection_matrix * X;
+
+        for (int j = 0; j < 135; j++)
+            cb.histograms2[i].histogram[j] = Y(j);
+
+    }
+
+
+
+
+    for (int i = 0; i < cb.histograms1.size(); i++)
+    {
+        for (int j = 0; j < cb.histograms2.size(); j++)
+        {
+
+            Eigen::VectorXf one, two;
+            one.resize(num_dim);
+            two.resize(num_dim);
+
+            for(int k = 0; k < num_dim; k++)
+            {
+                one[k] = cb.histograms1[i].histogram[k];
+            }
+
+            for(int k = 0; k < num_dim; k++)
+            {
+                two[k] = cb.histograms2[j].histogram[k];
+            }
+
+            dist(i,j) = (one-two).norm();
+
+
+        }
+    }
+ 
+
+
+    for (int i = 0; i < dist.rows(); i++)
+    {
+        float small = dist(i,0);
+        int index_i = i;
+        int index_j = 0;
+        for(int j = 0; j < dist.cols(); j++)
+        {
+            if (dist(i,j) < small)
+            {
+                small = dist(i,j);
+                index_i = i;
+                index_j = j;
+            }
+        }
+        int temp = 0;
+        for (int j = 0; j < dist.rows(); j++)
+        {
+            if (dist(j,index_j) < small)
+                temp = 1;
+        }
+        if (temp == 0)
+        {
+            pcl::Correspondence corr;
+            //cout << "here " << endl;
+            //cout << cb.cloud1_keypoints_indices[index_i] << endl;
+            corr.index_query = cb.cloud1_keypoints_indices[index_i];// vulnerable
+            corr.index_match = cb.cloud2_keypoints_indices[index_j];// vulnerable
+            corr.distance = dist(index_i,index_j);
+
+            corresp.push_back(corr);
+        }
+
+    }
+
+    /************Reciprocal Correspondence Estimation : END**************/
+
+    
+    clock_t start1, end1;
+    double cpu_time_used1;
+    start1 = clock();
+
+    pcl::CorrespondencesConstPtr correspond = boost::make_shared< pcl::Correspondences >(corresp);
+
+    pcl::Correspondences corr;
+    pcl::registration::CorrespondenceRejectorSampleConsensus< pcl::PointXYZ > Ransac_based_Rejection;
+    Ransac_based_Rejection.setInputSource(cb.cloud1.makeShared());
+    Ransac_based_Rejection.setInputTarget(cb.cloud2.makeShared());
+    Ransac_based_Rejection.setInlierThreshold(0.06);
+    Ransac_based_Rejection.setInputCorrespondences(correspond);
+    Ransac_based_Rejection.getCorrespondences(corr);
+
+    end1 = clock();
+    cpu_time_used1 = ((double) (end1 - start1)) / CLOCKS_PER_SEC;
+
+   
+    //cout << "No. of RANSAC matches of B-SHOT : " << corr.size() << endl;
+    //bshot << "No. of RANSAC matches of B-SHOT , " << corr.size() << endl;
+
+    Eigen::Matrix4f a = Ransac_based_Rejection.getBestTransformation();
+    Eigen::Matrix4f b = a - T;
+
+    //cout << "T_diff : " << b.norm() << endl;
+    //typeshot << "T diff & " << b.norm() << "\n";
+
+
+
+    pcl::Correspondences verification;
+    pcl::KdTreeFLANN<pcl::PointXYZ> kdtree;
+    kdtree.setInputCloud(cb.cloud2_keypoints.makeShared());
+    pcl::PointXYZ searchPoint;
+    float radius_search;
+    int actual_keypoints = 0;
+
+    for(int i = 0; i < cb.cloud1_keypoints.size(); i++)
+    {
+
+        Eigen::Vector4f e_point1(cb.cloud1_keypoints[i].getVector4fMap());
+        Eigen::Vector4f transformed_point(T*e_point1);
+
+        //cout << T << endl;
+        //cout << transformed_point << endl;
+
+        searchPoint.x = transformed_point[0];
+        searchPoint.y = transformed_point[1];
+        searchPoint.z = transformed_point[2];
+
+        int K = 1;
+        std::vector<int> pointIdxNKNSearch(K);
+        std::vector<float> pointNKNSquaredDistance(K);
+
+        if ( kdtree.nearestKSearch (searchPoint, K, pointIdxNKNSearch, pointNKNSquaredDistance) > 0 )
+        {
+            if ( 0.03 > sqrt(pointNKNSquaredDistance[0]))
+            {
+                actual_keypoints++;
+            }
+        }
+
+
+    }
+
+    cout << "\n\nWe use the actual keypoints present in the scene rather than total number of detected keypoints \n\n";
+
+    cout << "Actual Keypoints : " << actual_keypoints << endl;
+    cout << "Total Keypoints : "<< cb.cloud1_keypoints.size()<< endl;
+
+
+
+    int cnt=0;
+    for (int i = 0; i < (int)corr.size(); i++)
+    {
+        pcl::PointXYZ point1 = cb.cloud1[corr[i].index_query];
+        pcl::PointXYZ point2 = cb.cloud2[corr[i].index_match];
+
+        Eigen::Vector4f e_point1(point1.getVector4fMap());
+        Eigen::Vector4f e_point2(point2.getVector4fMap());
+
+        Eigen::Vector4f transformed_point(T*e_point1);
+        Eigen::Vector4f diff(e_point2 - transformed_point);
+
+        if (diff.norm() < 0.05)
+            cnt++;
+    }
+
+    pcarops << "RRR of PCA-ROPS * " << ((float)cnt/(float)actual_keypoints)*100 << "\n \n";
+    cout << "No. of RANSAC matches of PCA-ROPS : " << corr.size() << endl;
+    cout << "Groundtruth matches of PCA-ROPS * " << cnt << endl;
+    cout << "RRR of PCA-ROPS * : "<< ((float)cnt/(float)actual_keypoints)*100 << endl;
+
+    boost::shared_ptr<pcl::visualization::PCLVisualizer> viewer (new pcl::visualization::PCLVisualizer ("3D Viewer"));
+    viewer->setBackgroundColor (255, 255, 255);
+
+    //int v1(0);
+    //viewer->createViewPort (0.0, 0.0, 0.5, 1.0, v1);
+
+    pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> single_color1(cb.cloud1.makeShared(), 255, 0, 0);
+    viewer->addPointCloud<pcl::PointXYZ> (cb.cloud1.makeShared(), single_color1, "sample cloud1");
+    viewer->setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 4, "sample cloud1");
+    //viewer->addCoordinateSystem (1.0);
+    viewer->initCameraParameters ();
+
+    Eigen::Matrix4f t;
+    t<<1,0,0,0.75,
+            0,1,0,0,
+            0,0,1,0,
+            0,0,0,1;
+
+    //cloudNext is my target cloud
+    pcl::transformPointCloud(cb.cloud2,cb.cloud2,t);
+
+    //int v2(1);
+    //viewer->createViewPort (0.5,0.0,0.1,1.0,1);
+    pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> single_color2(cb.cloud2.makeShared(), 0, 0, 255);
+    viewer->addPointCloud<pcl::PointXYZ> (cb.cloud2.makeShared(), single_color2, "sample cloud2");
+    viewer->setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 4, "sample cloud2");
+
+
+    viewer->addText ("PCA-ROPS", 10, 10, 30,0,1,0, "v1 text");
+    viewer->addCorrespondences<pcl::PointXYZ>(cb.cloud1.makeShared(), cb.cloud2.makeShared(), corr, "correspondences");
+
+
+
+
+
+    /*
+
+    while (!viewer->wasStopped ())
+    {
+        viewer->spinOnce (100);
+        boost::this_thread::sleep (boost::posix_time::microseconds (100000));
+    }
+*/
+
+    return 0;
+
+
+
+}
+
+
