@@ -11,5 +11,4 @@ Run the package by
 5. ./PCA_SHOT
 
 
-Please cite the paper **On Creating Low Dimensional 3D Feature Descriptors using PCA
-** if you find this useful!
+Please cite the paper **On Creating Low Dimensional 3D Feature Descriptors using PCA** if you find this useful!
